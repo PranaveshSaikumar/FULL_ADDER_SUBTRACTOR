@@ -77,6 +77,7 @@ Full Adder
 ![full adder logic gate](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/30274673-8b73-48dd-a07f-ea8825b0273f)
 
 Full Subtractor
+
 ![Full sub logic gate](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/9ab5cc38-b753-48c6-ada0-a41c1df85e5d)
 
 
