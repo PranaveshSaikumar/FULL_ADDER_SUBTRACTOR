@@ -50,6 +50,7 @@ Full Subtractor
 **Procedure**
 
 **Full Adder:**
+```
 1.Open Quartus II and create a new project.
 2.Use schematic design entry to draw the full adder circuit. 
 3.The circuit consists of XOR, AND, and OR gates. 
@@ -61,6 +62,7 @@ Full Subtractor
 2.Draw the full subtractor circuit using schematic design. 
 3.The circuit includes XOR, AND, OR gates to perform subtraction. 
 4.Compile, simulate, implement, and program the design similarly to the full adder.
+```
 
 **Program:**
 
