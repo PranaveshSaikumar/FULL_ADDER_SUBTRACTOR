@@ -38,17 +38,36 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+Full Adder
+
+![image](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/9d270612-d92b-46d3-9474-2d0a351bf953)
+
+Full Subtractor
+
+![image](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/e791588c-cec1-4f39-93ae-d1673580f667)
+
+
 **Procedure**
 
-Write the detailed procedure here
+**Full Adder:**
+1.Open Quartus II and create a new project.
+2.Use schematic design entry to draw the full adder circuit. 
+3.The circuit consists of XOR, AND, and OR gates. 
+4.Compile the design, verify its functionality through simulation. 
+5.Implement the design on the target device and program it.
+
+**Full Subtractor:** 
+1.Follow the same steps as for the full adder. 
+2.Draw the full subtractor circuit using schematic design. 
+3.The circuit includes XOR, AND, OR gates to perform subtraction. 
+4.Compile, simulate, implement, and program the design similarly to the full adder.
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
-Developed By:
 Register Name: Pranavesh Saikumar
+
 Register No.: 212223040149
+
 Full Adder
 ```
 module fulladder(a,b,cin,sum,carry);
@@ -75,6 +94,7 @@ assign BO = (a & b) | ((a ^ b) & Bin);
 endmodule
 ```
 **RTL Schematic**
+
 Full Adder
 
 ![full adder logic gate](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/30274673-8b73-48dd-a07f-ea8825b0273f)
@@ -83,14 +103,15 @@ Full Subtractor
 
 ![Full sub logic gate](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/9ab5cc38-b753-48c6-ada0-a41c1df85e5d)
 
-
 **Output Timing Waveform**
+
 Full Adder
+
 ![full adder waveform](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/d78d447b-c0b5-49bb-8756-4d1b6f85d48c)
 
 Full Subtractor
-![full sub waveform](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/10dddfb1-205e-48af-8729-71eb215ca2b2)
 
+![full sub waveform](https://github.com/PranaveshSaikumar/FULL_ADDER_SUBTRACTOR/assets/151001393/10dddfb1-205e-48af-8729-71eb215ca2b2)
 
 **Result:**
 
